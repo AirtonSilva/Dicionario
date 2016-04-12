@@ -7,9 +7,9 @@
 		
 	<managed-bean>
 	
-		<managed-bean-name>pessoa</managed-bean-name>
-		<managed-bean-class>br.edu.ifpb.managedBean.PessoaBean</managed-bean-class>
-		<managed-bean-scope>session</managed-bean-scope>
+		<managed-bean-name>palavre</managed-bean-name>
+		<managed-bean-class>br.edu.ifpb.bean.Bean</managed-bean-class>
+		<managed-bean-scope>request</managed-bean-scope>
 	
 	</managed-bean>
 	

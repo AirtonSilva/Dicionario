@@ -14,11 +14,14 @@
     		<ui:define name="content">
     		
     		<h:form>
+    		
+    		         <!--   value="${inversaoBean.inversao.campo1} -->
 				
     			<p:inputText value="${bean.palavre.definicao}"></p:inputText>
     			<br></br>
-    			<label>
-					<p:commandButton value="Pesquisar" action="${bean.buscar}" />
+    			<label>	                        <!--   action="#{inversaoBean.inverter}"  -->
+						
+					<p:commandButton value="Pesquisar" action="#{bean.buscar}" />
 					
 				</label>
 			
@@ -45,7 +48,7 @@
         
         
         
-    		<a href="../DicionarioRegional/index.xhtml" target='_self'>Voltar</a> 
+    		<a href="../Dicionario/index.xhtml" target='_self'>Voltar</a> 
     		</ui:define>
     			
     	</ui:composition>
